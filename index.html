@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fibonacci Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+    <!-- defer makes sure the JS runs after HTML is loaded -->
+  </head>
+  <body>
+    <div id="container">
+      <h1>Generate Fibonacci Numbers</h1>
+      <div>
+        <p>
+          Fibonacci sequence is a series of numbers where each number is the sum
+          of the two preceding ones, usually starting with 0 and 1.
+        </p>
+        <div id="Fibonaccinumbers">
+          <p id="sequence"></p>
+        </div>
+        <input type="number" id="limit" placeholder="Enter limit" />
+        <button onclick="generateFibonacci()"">Generate</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f5f5;
+  height: 100vh;
+  background-color: bisque;
+}
+
+#container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 5px solid blue;
+  padding: 20px;
+}
+#Fibonaccinumbers {
+  margin-top: 20px;
+  padding: 10px;
+  border: 3px solid red;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: aqua;
+  border: none;
+}
+button:active {
+  color: white;
+  background-color: rebeccapurple;
+}
+input {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#sequence {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
